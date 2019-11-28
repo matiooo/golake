@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "ir.hhadanooo.golake"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    //hadanooo line 1
+    //hadanooo line 2
+    //hadanooo line 3
+    //hadanooo line 4
+    //hadanooo line 5
+    //hadanooo line 6
+    //hadanooo line 7
+    //hadanooo line 8
+    //hadanooo line 9
+    //hadanooo line 9
+    //hadanooo line 10
+
+
+    //matiooo line 1
+    //matiooo line 2
+    //matiooo line 3
+    //matiooo line 4
+    //matiooo line 5
+    //matiooo line 6
+    //matiooo line 7
+    //matiooo line 8
+    //matiooo line 9
+    //matiooo line 10
+}
